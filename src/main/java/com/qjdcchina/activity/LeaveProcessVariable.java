@@ -64,7 +64,7 @@ public class LeaveProcessVariable {
 				@Test
 				public void test005() {
 				
-					
+					//≤‚ ‘ π”√
 					
 				}
 		
