@@ -21,7 +21,7 @@ import org.junit.Test;
 public class LeaveProcessHistory {
 	
 	ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
-	//查询历史流程实例列表
+	//鏌ヨ鍘嗗彶娴佺▼瀹炰緥鍒楄〃
 	@Test
 	public void test001() {
 		HistoricActivityInstanceQuery query = processEngine.getHistoryService().createHistoricActivityInstanceQuery();
@@ -32,7 +32,7 @@ public class LeaveProcessHistory {
 	}
 	
 	/**
-	 * 查询历史活动数据列表
+	 * 鏌ヨ鍘嗗彶娲诲姩鏁版嵁鍒楄〃
 	 */
 	@Test
 	public void test002() {
@@ -48,7 +48,7 @@ public class LeaveProcessHistory {
 	}
 	
 	/**
-	 * 查询历史任务数据列表
+	 * 鏌ヨ鍘嗗彶浠诲姟鏁版嵁鍒楄〃
 	 */
 	@Test
 	public void test003() {

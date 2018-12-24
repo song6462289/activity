@@ -13,7 +13,7 @@ import sun.print.PeekGraphics;
 public class LeaveProcessVariable {
 	
 	ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
-	//ÉèÖÃÁ÷³Ì±äÁ¿  Ò» : ÔÚÆô¶¯Á÷³ÌÊµÀıÊ±ÉèÖÃ
+	//è®¾ç½®æµç¨‹å˜é‡  ä¸€ : åœ¨å¯åŠ¨æµç¨‹å®ä¾‹æ—¶è®¾ç½®
 	@Test
 	public void test001() {
 		String processDefinitionKey = "qjlc002";
@@ -26,7 +26,7 @@ public class LeaveProcessVariable {
 		  System.out.println(pi.toString());
 	}
 	
-	//ÉèÖÃÁ÷³Ì±äÁ¿  ¶ş : ÔÚ°ìÀíÈÎÎñÊ±ÉèÖÃ
+	//è®¾ç½®æµç¨‹å˜é‡  äºŒ : åœ¨åŠç†ä»»åŠ¡æ—¶è®¾ç½®
 		@Test
 		public void test002() {
 			String processDefinitionKey = "qjlc002";
@@ -40,20 +40,20 @@ public class LeaveProcessVariable {
 		}
 		
 		
-		//ÉèÖÃÁ÷³Ì±äÁ¿  Èı: Ê¹ÓÃRuntimeServiceÉèÖÃ
+		//è®¾ç½®æµç¨‹å˜é‡  ä¸‰: ä½¿ç”¨RuntimeServiceè®¾ç½®
 		@Test
 		public void test003() {
-			String executionId = "1605";//Á÷³ÌÊµÀıid
+			String executionId = "1605";//æµç¨‹å®ä¾‹id
 			String variableName = "key3" ;
 			Object value = "value3" ;
 			processEngine.getRuntimeService().setVariable(executionId, variableName, value);
 		}
 	
 		
-		//ÉèÖÃÁ÷³Ì±äÁ¿  Èı: Ê¹ÓÃRuntimeServiceÉèÖÃ
+		//è®¾ç½®æµç¨‹å˜é‡  ä¸‰: ä½¿ç”¨RuntimeServiceè®¾ç½®
 				@Test
 				public void test004() {
-					String executionId = "1605";//Á÷³ÌÊµÀıid
+					String executionId = "1605";//æµç¨‹å®ä¾‹id
 					String variableName = "key3" ;
 					Object value = "value3" ;
 					processEngine.getRuntimeService().setVariable(executionId, variableName, value);
@@ -64,7 +64,7 @@ public class LeaveProcessVariable {
 				@Test
 				public void test005() {
 				
-					//²âÊÔÊ¹ÓÃ
+					//æµ‹è¯•ä½¿ç”¨
 					
 				}
 		

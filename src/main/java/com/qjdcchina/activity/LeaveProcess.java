@@ -16,22 +16,22 @@ import org.junit.Test;
 public class LeaveProcess {
 	
 	ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
-	//²¿ÊğÁ÷³Ì¶¨Òå
+	//éƒ¨ç½²æµç¨‹å®šä¹‰
 	@Test
 	public void test001() {
-		//»ñµÃÒ»¸ö²¿Êğ¹¹½¨Æğ¶ÔÏó,ÓÃÓÚ¼ÓÔØÁ÷³Ì¶¨ÒåÎÄ¼ş
+		//è·å¾—ä¸€ä¸ªéƒ¨ç½²æ„å»ºèµ·å¯¹è±¡,ç”¨äºåŠ è½½æµç¨‹å®šä¹‰æ–‡ä»¶
 		DeploymentBuilder deployment = processEngine.getRepositoryService().createDeployment();
 		
-		//¼ÓÔØÁ÷³Ì¶¨ÒåÎÄ¼ş
+		//åŠ è½½æµç¨‹å®šä¹‰æ–‡ä»¶
 		deployment.addClasspathResource("./diagrams/process01.bpmn");
 		deployment.addClasspathResource("./diagrams/process01.png");
 		
-		//²¿ÊğÁ÷³Ì¶¨Òå
+		//éƒ¨ç½²æµç¨‹å®šä¹‰
 		Deployment deploy = deployment.deploy();
 		System.out.println(deploy.getId()+"++++++++++++++++++++++++++++"+deploy.getName());
 	}
 	
-	//²éÑ¯Á÷³Ì¶¨ÒåÁĞ±í
+	//æŸ¥è¯¢æµç¨‹å®šä¹‰åˆ—è¡¨
 	@Test
 	public void test002() {
 		ProcessDefinitionQuery query = processEngine.getRepositoryService().createProcessDefinitionQuery();
@@ -45,7 +45,7 @@ public class LeaveProcess {
 	}
 	
 	/**
-	 * Æô¶¯Ò»¸öÁ÷³ÌÊµÀı
+	 * å¯åŠ¨ä¸€ä¸ªæµç¨‹å®ä¾‹
 	 */
 	
 	@Test
@@ -56,13 +56,13 @@ public class LeaveProcess {
 	}
 	
 	/**
-	 * Æô²éÑ¯¸öÈËÁĞ±íÈÎÎñ
+	 * å¯æŸ¥è¯¢ä¸ªäººåˆ—è¡¨ä»»åŠ¡
 	 */
 	
 	@Test
 	public void test004() {
 		TaskQuery query = processEngine.getTaskService().createTaskQuery();
-		String assignee = "ÍõÎå" ;
+		String assignee = "ç‹äº”" ;
 		query.taskAssignee(assignee);
 		List<Task> list = query.list();
 		for (Task task : list) {
@@ -71,7 +71,7 @@ public class LeaveProcess {
 	}
 	
 	/**
-	 * ´¦Àí¸öÈËÈÎÎñÁĞ±í
+	 * å¤„ç†ä¸ªäººä»»åŠ¡åˆ—è¡¨
 	 */
 	
 	@Test

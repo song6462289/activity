@@ -6,7 +6,51 @@
 	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/activiti"/>
-	<classpathentry kind="lib" path="D:/apache-maven-3.1.1/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.12.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/apache-maven-3.1.1/repository/mysql/mysql-connector-java/8.0.12/mysql-connector-java-8.0.12.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-bpmn-converter-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-bpmn-layout-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-bpmn-model-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-common-rest-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-engine-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-json-converter-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-rest-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-simple-workflow-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/activiti-spring-5.13.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/commons-email-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/h2-1.3.170.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/jackson-core-asl-1.9.9.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/jackson-mapper-asl-1.9.9.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/javaGeom-0.11.0.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/jcl-over-slf4j-1.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/jgraphx-1.10.4.2.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/joda-time-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/mail-1.4.1.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/mybatis-3.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/org.restlet.ext.fileupload-2.0.15.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/org.restlet.ext.jackson-2.0.15.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/org.restlet.ext.servlet-2.0.15.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/org.restlet-2.0.15.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-aop-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-asm-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-beans-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-context-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-core-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-expression-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-jdbc-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-orm-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/下载中心/activity/day61-activiti/项目/activiti1110/lib/spring-tx-3.1.2.RELEASE.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
